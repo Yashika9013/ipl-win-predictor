@@ -44,3 +44,11 @@ This project is a Machine Learning-powered web application that predicts the win
 ```bash
 git clone https://github.com/Yashika9013/ipl-win-predictor.git
 cd ipl-win-predictor
+```
+### Running
+```bash
+python strtServer.py
+```
+Open Web-Browser and navigate to http://127.0.0.1:5000/
+
+
