@@ -1,31 +1,46 @@
- HEAD
-# IPL Win Predictor [2022] 
+# 🏏 IPL Win Predictor [2022]
 
-Tihs is the machine learning project with webapp which predicts IPL Winner Among two teams.
+This project is a Machine Learning-powered web application that predicts the winning team in an IPL (Indian Premier League) match based on team inputs. Built using **Python**, **Flask**, **Scikit-learn**, and **Docker**, it is deployed on **Render**.
 
-## Pakages Used And It's Version:
+🔗 **Live Demo**: [ipl-win-predictor-zt4m.onrender.com](https://ipl-win-predictor-zt4m.onrender.com/)
 
-Python - Version 3.10.4
+---
 
-* `pandas` - Version 1.4.3
-* `scikit-learn` - Version 1.1.1
-* `flask` - Version 2.1.3
+## 📦 Features
 
-DataSet Used >> https://www.kaggle.com/datasets/amanullahkhan9093/ipl-dataset-20082022
+- Predicts IPL match winner based on user-selected teams.
+- Simple and clean web interface using Flask.
+- Model trained using Scikit-learn and historical IPL data.
+- Dockerized for consistent deployment.
+- Deployed live on Render.
 
+---
 
+## 🚀 Demo Screenshot
 
+> (Optional: Add a screenshot here showing the app in action)
 
+---
 
-## Installation
+## 🛠️ Tech Stack
 
-`git clone https://github.com/subhasmita223/IPL-Prediction.git`
+- **Frontend**: HTML/CSS (Flask templates)
+- **Backend**: Python + Flask
+- **ML Model**: Scikit-learn
+- **Deployment**: Docker + Render
 
-`cd  IPL-Win-Predictor-Web-App && pip install -r requirements.txt`
+---
 
-## Running
+## ⚙️ Getting Started (Local Setup)
 
-`python strtServer.py`
+### Prerequisites
 
-Open Web-Browser and navigate to http://127.0.0.1:5000/
+- Python 3.10+
+- pip
+- Docker (optional, for containerized setup)
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Yashika9013/ipl-win-predictor.git
+cd ipl-win-predictor
