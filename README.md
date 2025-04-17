@@ -50,5 +50,10 @@ cd ipl-win-predictor
 python strtServer.py
 ```
 Open Web-Browser and navigate to http://127.0.0.1:5000/
+### Docker running
+```bash
+docker build -t ipl-win-predictor .
+docker run -p 5000:5000 ipl-win-predictor
+```
 
 
